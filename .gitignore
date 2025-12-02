@@ -1,0 +1,46 @@
+# === Inverted Index Output (generated data) ===
+inv-index/*.txt
+inv-index/*.dat
+inv-index/*.bin
+inv-index/*.json
+
+# If the folder contains ONLY generated data, ignore the whole directory:
+# /inv-index/
+
+# === Python cache & virtual environments ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+.venv/
+
+# === Java build/output ===
+*.class
+target/
+out/
+build/
+
+# === OS/Editor files ===
+.DS_Store
+Thumbs.db
+
+# === VS Code settings ===
+.vscode/
+
+# === Logs ===
+*.log
+
+# === Temporary or generated data ===
+tmp/
+temp/
+*.tmp
+
+# === If generate intermediate files for TF-IDF or postings lists ===
+postings/
+postings/*.txt
+postings/*.json
+tfidf/*.txt
+tfidf/*.json
